@@ -27,7 +27,7 @@ References Informatica PowerCenter's on-premise metadata repository.
 
 The schema is labeled as **PC_REPO** in this exercise.
 
-I have only included agnostic queries that strictly reference the metadata repository and not in-house ETL metadata tables specific to the business.
+With few exceptions, I have only included agnostic queries that strictly reference the metadata repository and not in-house ETL metadata tables. Nothing specific to the business has been included.
 
 *******
 

@@ -22,6 +22,7 @@ These queries were developed and adapted to manage, orchestrate, and administer 
 | FIND TIMING AND STATS | How long are things running? Which workflows succeeded? The bones of the ETL orchestration tool I built. Can also be super useful for debugging ETL runs. |
 | FIND COMMON OBJECTS | What if I've got a source used in multiple parts of the ETL? By different business units? In the enterprise ETL that necessitated these queries, those objects were treated differently. This is an example of a query not agnostic to the ETL implementation. Finding sources referenced in multiple folders is still useful, so it lives here. |
 | FIND HARDCODED REFERENCES | Simple adaptation used elsewhere - used to flush out specific references to years in filters (cheaters!), for example |
+| FIND OBJECT, KEY CHARACTERSTICS | The swiss army knife. Most granularity. This borrowed heavily from outside experts and Informatica forums to determine widget attribute IDs that corresponded to the correct Informatica modules. |
 
 *******
 **Oracle**-style SQL syntax. Can be easily adapted to other syntaxes (MySQL, SQL Server, etc.). Note that CTE, SUBSTR, and ordering syntax will be likely snags.

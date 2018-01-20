@@ -1,4 +1,5 @@
-# InformaticaPCManagement
+# Informatica PowerCenter Metadata Management.
+_go spelunking in your IPC's blackbox!_
 
 **Oracle**-style SQL syntax. Can be easily adapted to other syntaxes (MySQL, SQL Server, etc.).
 References Informatica PowerCenter's on-premise metadata repository.

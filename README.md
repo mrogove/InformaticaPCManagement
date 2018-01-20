@@ -17,7 +17,8 @@ These queries were developed and adapted to manage, orchestrate, and administer 
 | Section       | General purpose      |
 | ------------- |:-------------:|
 | FIND DEPENDENCIES | Locate any references to a given string (say, database table) in entire ETL repository. |
-| | |
+| FIND SOURCES| For handling Informatica Sources; especially useful when investigating typing of columns. DEPENDENCIES more exhaustive for chasing down all references to a given "SOURCE" table, however. |
+|  |  |
 
 *******
 **Oracle**-style SQL syntax. Can be easily adapted to other syntaxes (MySQL, SQL Server, etc.). Note that CTE, SUBSTR, and ordering syntax will be likely snags.

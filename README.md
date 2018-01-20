@@ -14,12 +14,20 @@ These queries were developed and adapted to manage, orchestrate, and administer 
   * Queries in this repository were adapted to be called in production via Informatica mappings/transformations to check dependencies, call subsequent workflows, etc.
 
 *******
-**Oracle**-style SQL syntax. Can be easily adapted to other syntaxes (MySQL, SQL Server, etc.).
+| Section       | General purpose      |
+| ------------- |:-------------:|
+| FIND DEPENDENCIES | Locate any references to a given string (say, database table) in entire ETL repository. |
+| | |
+
+*******
+**Oracle**-style SQL syntax. Can be easily adapted to other syntaxes (MySQL, SQL Server, etc.). Note that CTE, SUBSTR, and ordering syntax will be likely snags.
 
 References Informatica PowerCenter's on-premise metadata repository.
 
 The schema is labeled as **PC_REPO** in this exercise.
 
 I have only included agnostic queries that strictly reference the metadata repository and not in-house ETL metadata tables specific to the business.
- 
+
+*******
+
  
